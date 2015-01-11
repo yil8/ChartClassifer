@@ -23,11 +23,14 @@ Install numpy, scipy on Ubuntu:
 sudo apt-get install python-numpy python-scipy
 
 Instal PIL on Linux:
+
 1. Download PIL 1.1.7 under "Python Imaging Library 1.1.7 Source Kit" as Imaging-1.1.7.tar.gz
+
 2. run:
-        tar -xzvf Imaging-1.1.7.tar.gz
+tar -xzvf Imaging-1.1.7.tar.gz
+
 3. Go into the folder created and (as root) install the package as run:
-        python setup.py install
+python setup.py install
 
 Compile libSVM
 --------------
@@ -35,6 +38,7 @@ Compile libSVM
 Under the bin directory, imageUtils.py and img_svm_predict.py are my sources; libSVM_COPYRIGHT  Makefile  svm.cpp  svm.def  svm.h  svm.py  svmutil.py are the sources of libSVM. 
 
 The static library of libSVM need to be compiled to run img_svm_predict.py. Simply type:
+
 make
 
 TEST
