@@ -3,7 +3,7 @@ ChartClassifer
 
 An chart image classifier based on Python
 
-Copyright (c) 2013 Yi Li <hmily870311@163.com>
+Copyright (c) 2013 Yi Li <yil8@uci.edu>
 
 INSTALL
 =======
